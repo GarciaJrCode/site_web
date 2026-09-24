@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills — René Mourambou Diyema</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/skills.css"/>
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Home</a>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html" class="active">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="resume/Rene_Mourambou_Diyema_Resume_Internship_Quant_EN.pdf" download class="nav-cv-btn">Download Resume</a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="about.html">About</a>
+    <a href="education.html">Education</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+    <a href="resume/Rene_Mourambou_Diyema_Resume_Internship_Quant_EN.pdf" download class="mobile-cv-btn">Download Resume</a>
+  </div>
+
+  <main class="page">
+    <div class="page-header">
+      <div class="page-tag animate-in" style="--delay:0.1s"><span class="mono">05 /</span> Skills</div>
+      <h1 class="page-title animate-in" style="--delay:0.25s">Quantitative <em>Skills</em></h1>
+    </div>
+
+    <div class="skills-layout">
+
+      <div class="skill-group animate-in" style="--delay:0.5s">
+        <h3 class="group-title">Languages &amp; Tools</h3>
+        <div class="skill-tags">
+          <span>Python</span><span>C++</span><span>SQL</span><span>Linux</span>
+          <span>Git</span><span>Docker</span><span>Kubernetes</span>
+        </div>
+      </div>
+
+      <div class="skill-group animate-in" style="--delay:0.6s">
+        <h3 class="group-title">Libraries</h3>
+        <div class="skill-tags">
+          <span>QuantLib</span><span>Statsmodels</span><span>CVXPY</span><span>NumPy</span><span>SciPy</span>
+          <span>Pandas</span><span>Matplotlib</span><span>Seaborn</span><span>PyTorch</span>
+          <span>TensorFlow</span><span>Keras</span><span>Scikit-learn</span>
+        </div>
+      </div>
+
+      <div class="skill-group animate-in" style="--delay:0.7s">
+        <h3 class="group-title">Quantitative Finance</h3>
+        <div class="skill-tags">
+          <span>Stochastic Calculus</span><span>Monte Carlo</span><span>Derivative Pricing</span>
+          <span>Greeks</span><span>VaR</span><span>Expected Shortfall</span>
+          <span>Calibration</span><span>Implied Volatility</span>
+          <span>Black–Scholes</span><span>Delta Hedging</span><span>Heston Model</span><span>GARCH</span>
+          <span>Fixed Income</span><span>Equities</span><span>Portfolio Management</span><span>Interest Rates</span>
+        </div>
+      </div>
+
+      <div class="skill-group animate-in" style="--delay:0.8s">
+        <h3 class="group-title">Probability &amp; Statistics</h3>
+        <div class="skill-tags">
+          <span>Stochastic Processes</span><span>Statistical Inference</span><span>Hypothesis Testing</span>
+          <span>Time Series</span><span>Regression</span><span>PCA</span><span>Covariance Estimation</span>
+          <span>Maximum Likelihood Estimation</span><span>Extreme Value Theory</span>
+          <span>Markov Processes</span><span>Multivariate Statistics</span>
+        </div>
+      </div>
+
+      <div class="skill-group animate-in" style="--delay:0.85s">
+        <h3 class="group-title">Languages</h3>
+        <div class="lang-cards">
+          <div class="lang-card">
+            <img class="lang-flag-img" src="https://flagcdn.com/w80/fr.png" width="40" height="30" alt="France" loading="lazy"/>
+            <span class="lang-name">French</span>
+            <span class="lang-level">Native</span>
+          </div>
+          <div class="lang-card">
+            <img class="lang-flag-img" src="https://flagcdn.com/w80/gb.png" width="40" height="30" alt="United Kingdom" loading="lazy"/>
+            <span class="lang-name">English</span>
+            <span class="lang-level">Fluent</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="nav-pages animate-in" style="--delay:1.1s">
+      <a href="projects.html" class="prev-page">← Projects</a>
+      <a href="contact.html" class="next-page">Contact →</a>
+    </div>
+  </main>
+
+  <script src="js/skills.js"></script>
+</body>
+</html>

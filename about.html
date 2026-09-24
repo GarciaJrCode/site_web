@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — René Mourambou Diyema</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/about.css"/>
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Home</a>
+    <div class="nav-links">
+      <a href="about.html" class="active">About</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="resume/Rene_Mourambou_Diyema_Resume_Internship_Quant_EN.pdf" download class="nav-cv-btn">Download Resume</a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="about.html">About</a>
+    <a href="education.html">Education</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+    <a href="resume/Rene_Mourambou_Diyema_Resume_Internship_Quant_EN.pdf" download class="mobile-cv-btn">Download Resume</a>
+  </div>
+
+  <main class="page">
+    <div class="page-header">
+      <div class="page-tag animate-in" style="--delay:0.1s">
+        <span class="mono">01 /</span> About
+      </div>
+      <h1 class="page-title animate-in" style="--delay:0.25s">
+        Who I <em>am</em>
+      </h1>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-main animate-in" style="--delay:0.4s">
+        <p class="lead">
+          I am René Mourambou Diyema, a <strong>Quantitative Analyst</strong> focused on
+          <strong>quantitative models for financial markets</strong>—from assumptions and calibration to prices, hedges and risk measures.
+        </p>
+        <p>
+          I <strong>develop, calibrate and validate</strong> models used in <strong>derivative pricing</strong>, <strong>volatility</strong> and <strong>risk</strong>,
+          drawing on <strong>stochastic calculus</strong>, <strong>Monte Carlo methods</strong> and <strong>statistical inference</strong>.
+          My training spans <strong>applied mathematics</strong>, <strong>machine learning</strong> and <strong>mathematical finance</strong>
+          (ESIEE Paris, ENS Paris-Saclay, Paris-Saclay University, Gustave Eiffel University).
+        </p>
+        <p>
+          I have <strong>research and industry experience</strong> in <strong>model estimation and validation</strong>,
+          <strong>forecast stability and recalibration</strong>, and <strong>numerical modeling</strong> of complex dynamics.
+          I am fluent in both French and English.
+        </p>
+      </div>
+
+      <div class="about-side">
+        <div class="info-card animate-in" style="--delay:0.5s">
+          <h3>Quick Facts</h3>
+          <ul>
+            <li><span class="label">Location</span><span class="value">Paris, France</span></li>
+            <li><span class="label">Languages</span><span class="value">French | English</span></li>
+            <li><span class="label">Status</span><span class="value">Internship search</span></li>
+            <li><span class="label">Availability</span><span class="value">From April 2027</span></li>
+            <li><span class="label">Duration</span><span class="value">Quantitative Finance internship</span></li>
+            <!--<li><span class="label">Email</span><span class="value">garciagarcia293@gmail.com</span></li>
+            <li><span class="label">Phone</span><span class="value">+33 7 59 69 70 56</span></li>-->
+            <li><span class="label">Email</span><span class="value" id="aboutEmail">––––––––––––––––––</span></li>
+            <li><span class="label">Phone</span><span class="value" id="aboutPhone">––––––––––––––</span></li>
+          </ul>
+        </div>
+
+        <div class="interests-card animate-in" style="--delay:0.65s">
+          <h3>Industrial Interests</h3>
+          <div class="tags">
+            <span>Derivative Pricing</span>
+            <span>Stochastic Volatility</span>
+            <span>Structured Products</span>
+            <span>Greeks &amp; Hedging</span>
+            <span>Model Validation</span>
+            <span>VaR &amp; Expected Shortfall</span>
+            <span>Monte Carlo</span>
+            <span>Calibration</span>
+            <span>Interest Rates &amp; Credit</span>
+            <span>Time Series</span>
+          </div>
+        </div>
+
+        <div class="awards-card animate-in" style="--delay:0.8s">
+          <h3>Prizes and Awards</h3>
+          <div class="award-item">
+            <span class="award-icon">🏆</span>
+            <div>
+              <strong>VivaTech AI Competition Finalist</strong>
+              <span>European Artificial Intelligence Competition · 2024</span>
+            </div>
+          </div>
+          <div class="award-item">
+            <span class="award-icon">🥇</span>
+            <div>
+              <strong>KESK'IA AI Competition Winner</strong>
+              <span>French Inter-Regional Artificial Intelligence Competition · 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-pages animate-in" style="--delay:1s">
+      <a href="index.html" class="prev-page">← Home</a>
+      <a href="education.html" class="next-page">Education →</a>
+    </div>
+  </main>
+
+  <script src="js/about.js"></script>
+</body>
+</html>

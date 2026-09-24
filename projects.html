@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects — René Mourambou Diyema</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/projects.css"/>
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Home</a>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="resume/Rene_Mourambou_Diyema_Resume_Internship_Quant_EN.pdf" download class="nav-cv-btn">Download Resume</a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="about.html">About</a>
+    <a href="education.html">Education</a>
+    <a href="experience.html">Experience</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+    <a href="resume/Rene_Mourambou_Diyema_Resume_Internship_Quant_EN.pdf" download class="mobile-cv-btn">Download Resume</a>
+  </div>
+
+  <main class="page">
+    <div class="page-header">
+      <div class="page-tag animate-in" style="--delay:0.1s"><span class="mono">04 /</span> Projects</div>
+      <h1 class="page-title animate-in" style="--delay:0.25s">Quantitative Finance <em>Projects</em></h1>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card animate-in" style="--delay:0.4s">
+        <button class="preview-btn" data-project="01" aria-label="Preview project">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+          Preview
+        </button>
+        <div class="project-number">01</div>
+        <div class="project-content">
+          <div class="project-period">Sept 2026 — Oct 2026</div>
+          <h2 class="project-title">Exotic Derivatives<br/><em>Autocallable Pricing, Hedging and Model Risk</em></h2>
+          <ul class="project-bullets">
+            <li>Built an arbitrage-free implied volatility surface from S&amp;P 500 options and derived Dupire local volatility.</li>
+            <li>Built Heston and local-stochastic volatility models with a leverage function on the same surface.</li>
+            <li>Valued a 3-year autocallable and a barrier reverse convertible by Monte Carlo under each model for model risk.</li>
+            <li>Computed Greeks by bumping, simulated weekly delta hedging and decomposed profit and loss by Greek.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>QuantLib</span><span>Monte Carlo</span><span>Implied Volatility</span>
+            <span>Local Volatility</span><span>Heston</span><span>Local-Stochastic Volatility</span>
+            <span>Autocallables</span><span>Delta Hedging</span>
+          </div>
+          <button class="view-project-btn" data-id="p01">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="project-card animate-in" style="--delay:0.55s">
+        <button class="preview-btn" data-project="02" aria-label="Preview project">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+          Preview
+        </button>
+        <div class="project-number">02</div>
+        <div class="project-content">
+          <div class="project-period">Apr 2026 — May 2026</div>
+          <h2 class="project-title">Rough Volatility<br/><em>Calibration and Monte Carlo Pricing under Rough Bergomi</em></h2>
+          <ul class="project-bullets">
+            <li>Estimated the Hurst exponent from realized volatility series to characterise rough volatility dynamics.</li>
+            <li>Simulated fractional Brownian motion with the hybrid scheme to implement the rough Bergomi model.</li>
+            <li>Priced European options by Monte Carlo with control variates and antithetic variance reduction.</li>
+            <li>Calibrated on a real implied volatility surface and compared delta-hedging P&amp;L to Black-Scholes and Heston.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>C++</span><span>SciPy</span><span>QuantLib</span><span>Monte Carlo</span>
+            <span>Fractional Brownian Motion</span><span>Calibration</span><span>Implied Volatility</span><span>Greeks</span>
+          </div>
+          <button class="view-project-btn" data-id="p02">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="project-card animate-in" style="--delay:0.7s">
+        <button class="preview-btn" data-project="03" aria-label="Preview project">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+          Preview
+        </button>
+        <div class="project-number">03</div>
+        <div class="project-content">
+          <div class="project-period">Dec 2025 — Jan 2026</div>
+          <h2 class="project-title">Portfolio Risk Engine<br/><em>Extreme Value Theory, Copulas and Expected Shortfall</em></h2>
+          <ul class="project-bullets">
+            <li>Modelled marginal tail risk with GARCH and Generalized Pareto distributions (Peaks-Over-Threshold).</li>
+            <li>Modelled dependence with Student-t, Clayton and Gumbel copulas, and estimated tail dependence.</li>
+            <li>Computed VaR and Expected Shortfall by historical, parametric and copula Monte Carlo, with Ledoit-Wolf covariance.</li>
+            <li>Backtested models with Kupiec, Christoffersen and Acerbi-Székely tests to quantify model risk.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>NumPy</span><span>SciPy</span><span>Statsmodels</span><span>arch</span>
+            <span>Scikit-learn</span><span>EVT</span><span>Copulas</span><span>GARCH</span><span>VaR</span><span>Expected Shortfall</span>
+          </div>
+          <button class="view-project-btn" data-id="p03">View Project →</button>
+        </div>
+        <div class="project-accent"></div>
+      </div>
+
+      <div class="all-projects animate-in" style="--delay:0.85s">
+        <button class="all-projects-btn" id="btnAllProjects">
+          View all projects on GitHub →
+        </button>
+      </div>
+
+    </div>
+
+    <div class="nav-pages animate-in" style="--delay:1s">
+      <a href="experience.html" class="prev-page">← Experience</a>
+      <a href="skills.html" class="next-page">Skills →</a>
+    </div>
+
+    <!-- PREVIEW MODAL -->
+    <div class="modal-overlay" id="previewModal">
+      <div class="modal-box">
+        <button class="modal-close" id="modalClose" aria-label="Close">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+        <div class="modal-title" id="modalTitle"></div>
+        <div class="modal-grid">
+          <img class="modal-img" id="modalImg1" src="" alt="Preview 1"/>
+          <img class="modal-img" id="modalImg2" src="" alt="Preview 2"/>
+          <img class="modal-img" id="modalImg3" src="" alt="Preview 3"/>
+          <img class="modal-img" id="modalImg4" src="" alt="Preview 4"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="zoom-overlay" id="zoomOverlay">
+      <img class="zoom-full-img" id="zoomFullImg" src="" alt="Zoomed preview"/>
+    </div>
+    
+  </main>
+
+  <script src="js/projects.js"></script>
+</body>
+</html>
